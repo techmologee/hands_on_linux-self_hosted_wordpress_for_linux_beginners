@@ -23,9 +23,12 @@ Add the following content:
     error_log = /var/log/php-fpm.log
     include=/etc/php/7.0/fpm/pool.d/*.conf
 
-Remove the original (default) pool:
+Rename the original (default) pool:
 
-    rm /etc/php/7.0/fpm/pool.d/www.conf
+    cd /etc/php/7.0/fpm/pool.d
+    mv www.conf 'hostname'.conf
+    
+Edit the hostname in the .conf file
 
 
 ## Copy php.ini

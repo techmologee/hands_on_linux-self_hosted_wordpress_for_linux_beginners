@@ -28,7 +28,7 @@ Rename the original (default) pool:
     cd /etc/php/7.0/fpm/pool.d
     mv www.conf 'hostname'.conf
     
-Edit the hostname in the .conf file
+Step 7 will contain the complete info
 
 
 ## Copy php.ini
